@@ -148,7 +148,8 @@ button.menu img {
   bottom: 0;
   width: 250px;
   height: 100%;
-  background-color: #3367D6;
+/*   background-color: #3367D6; */
+background-color: #404040;
   color: #fefefe;
   -webkit-transform: translate(-250px, 0);
           transform: translate(-250px, 0);
@@ -219,7 +220,7 @@ button.menu img {
 main {
   margin: 0 auto;
   /* Height of the header */
-  padding: 60px 16px 16px 16px;
+  padding: 0px 0px 0px 0px;
   min-height: 100%;
 }
 
@@ -305,7 +306,7 @@ main {
   }
 
   main {
-    max-width: 864px;
+/*     max-width: 864px; */
     padding-top: 0;
     min-height: initial;
   }
