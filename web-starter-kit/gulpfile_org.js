@@ -18,7 +18,6 @@
  */
 
 'use strict';
-/*jslint node: true */
 
 // Include Gulp & Tools We'll Use
 var gulp = require('gulp');
@@ -28,7 +27,6 @@ var runSequence = require('run-sequence');
 var browserSync = require('browser-sync');
 var pagespeed = require('psi');
 var reload = browserSync.reload;
-var gutil = require('gulp-load-utils')(['log']);
 
 var AUTOPREFIXER_BROWSERS = [
   'ie >= 10',
@@ -137,7 +135,6 @@ gulp.task('html', function () {
         /.app-bar.open/
       ]
     })))
-    .pipe($.useref.assets().on("error",gutil.log))
     // Concatenate And Minify Styles
     .pipe($.if('*.css', $.csso()))
     .pipe($.useref.restore())

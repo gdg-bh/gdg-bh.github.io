@@ -37,7 +37,6 @@
     body.classList.toggle('open');
     appbarElement.classList.toggle('open');
     navdrawerContainer.classList.toggle('open');
-    navdrawerContainer.classList.add('opened');
   }
 
   main.addEventListener('click', closeMenu);
@@ -48,3 +47,12 @@
     }
   });
 })();
+
+
+(function() {
+    var link = document.createElement('link');
+    link.type = 'image/x-icon';
+    link.rel = 'shortcut icon';
+    link.href = '../images/icons/gdg_bh_tiny.png';
+    document.getElementsByTagName('head')[0].appendChild(link);
+}());
