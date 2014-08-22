@@ -321,6 +321,12 @@ main {
   }
 }
 
+
+
+div.attention:hover {
+  background-color:#f1f1f1;
+}
+
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
