@@ -104,7 +104,7 @@ gulp.task('styles', function () {
 // Scan Your HTML For Assets & Optimize Them
 gulp.task('html', function () {
   var assets = $.useref.assets({searchPath: '{.tmp,app}'}).pipe($.useref.assets({searchPath: '{.tmp,app}'})).on('error', function (err) {
-  console.log(err);                                                         
+  console.log(err);
 }) ;
 
   return gulp.src('app/**/*.html')
@@ -129,7 +129,7 @@ gulp.task('html', function () {
     .pipe($.if('*.css', $.csso()))
     .pipe(assets.restore())
     .pipe($.useref())
-   
+
 
     // Update Production Style Guide Paths
     .pipe($.replace('components/components.css', 'components/main.min.css'))
