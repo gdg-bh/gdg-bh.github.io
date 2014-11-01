@@ -1390,6 +1390,7 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 body{background:url(../img/google-icons.png) top center/100% auto no-repeat}
 .entry-top{background:rgba(255,255,255,.9);width:100%;padding:90px 20px;margin:30px 0}
 .logo{margin-bottom:30px}
+.logo img{display:inline-block}
 .list-links--customized{width:100%;max-width:100%;margin:40px 0;padding:0}
 .list-links--customized li{list-style-type:none;margin-bottom:10px;text-align:center}
 .list-links--customized li:last-child{margin-bottom:0}
