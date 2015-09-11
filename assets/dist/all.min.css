@@ -314,7 +314,7 @@ select{background:#fff!important}
 .glyphicon-tree-deciduous:before{content:"\e200"}
 *,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 html{font-size:10px;-webkit-tap-highlight-color:transparent}
-body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333}
+body{font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}
 button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}
 a{color:#428bca;text-decoration:none}
 a:focus,a:hover{color:#2a6496;text-decoration:underline}
@@ -1387,8 +1387,8 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 @media print{.visible-print-inline{display:inline!important}}
 @media print{.visible-print-inline-block{display:inline-block!important}}
 @media print{.hidden-print{display:none!important}}
-body{background:url(../img/google-icons.png) top center/100% auto no-repeat}
-.entry-top{background:rgba(255,255,255,.9);width:100%;padding:90px 20px;margin:30px 0}
+body{font-family:'Open Sans',sans-serif}
+.entry-top{background:rgba(255,255,255,.9);width:100%;margin:80px 0 0}
 .logo{margin-bottom:30px}
 .logo img{display:inline-block}
 .list-links--customized{width:100%;max-width:100%;margin:40px 0;padding:0}
